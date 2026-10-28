@@ -1,0 +1,8 @@
+{
+  "model": "IsolationForest",
+  "n_estimators": 200,
+  "contamination": 0.05,
+  "trained_on_healthy_only": true,
+  "healthy_train_samples": 9661,
+  "anomaly_rate_train": 0.062
+}

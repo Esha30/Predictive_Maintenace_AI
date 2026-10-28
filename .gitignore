@@ -1,0 +1,86 @@
+# ─── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+MANIFEST
+.Python
+env/
+venv/
+ENV/
+.venv/
+.env
+.env.local
+.env.*.local
+
+# ─── Jupyter ──────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── ML Artifacts ─────────────────────────────────────────
+ml/models/*.joblib
+ml/models/*.pkl
+ml/models/*.h5
+ml/data/raw/
+ml/data/processed/*.csv
+ml/evaluation/*.png
+ml/evaluation/metrics.json
+
+# ─── Node / Next.js ───────────────────────────────────────
+node_modules/
+.next/
+out/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# ─── IDE ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Docker ───────────────────────────────────────────────
+.dockerignore
+
+# ─── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Testing ──────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+
+# ─── MongoDB ──────────────────────────────────────────────
+data/db/
+mongodb_data/
+
+# ─── Misc ─────────────────────────────────────────────────
+*.bak
+*.tmp
+*.orig
